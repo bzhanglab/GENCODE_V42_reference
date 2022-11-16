@@ -6,7 +6,7 @@
 
 GENCODE_V42_reference
 ├── genome
-│   ├── GRCh38.primary_assembly.genome.fa.gz, genome sequence, GRCh38 primary assembly.
+│   ├── GRCh38.primary_assembly.genome.fa.gz, GRCh38 primary assembly genome sequence.
 │
 ├── gene_annotation
 │   ├── GENCODE.V42.basic.CHR.gtf.zip, GENCODE V42 basic and CHR only annotation.
