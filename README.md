@@ -17,10 +17,10 @@ GENCODE_V42_reference
 │   ├── GENCODE.V42.basic.CHR.no.chrM.mat, Gistic2 reference based on GENCODE V42 basic and CHR only annotation.
 │
 ├── protein_database
-│   ├── GENCODE.V42.basic.CHR.protein.selection.mapping.txt
-│   ├── GENCODE.V42.basic.CHR.maxquant_contaminants.fa
-│   ├── GENCODE.V42.basic.CHR.immunopeptidomic_contaminants.fa
-│   ├── GENCODE.V42.basic.CHR.combined_contaminants.fa
+│   ├── GENCODE.V42.basic.CHR.protein.selection.mapping.txt, mapping table for transcript guided redundant protein sequence removal.
+│   ├── GENCODE.V42.basic.CHR.maxquant_contaminants.fa, protein database with filtered MaxQuant contaminants.
+│   ├── GENCODE.V42.basic.CHR.immunopeptidomic_contaminants.fa, protein database with contaminants for immunopeptidomic analysis.
+│   ├── GENCODE.V42.basic.CHR.combined_contaminants.fa, protein database with union of above two contaminant database.
 
 ```
 
