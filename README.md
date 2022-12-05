@@ -60,17 +60,17 @@ The MaxQuant contaminant database has 246 unique IDs and 245 unique sequences. Q
 
 ```
 The headers of regular proteins were format as: 
-\>protein_ID|transcript_ID|gene_ID|gene_symbol gene_description.
+>protein_ID|transcript_ID|gene_ID|gene_symbol gene_description.
 ENSP00000510254 of KRAS is shown here as an example:
-\>ENSP00000510254|ENST00000692768|ENSG00000133703|KRAS KRAS proto-oncogene, GTPase
+>ENSP00000510254|ENST00000692768|ENSG00000133703|KRAS KRAS proto-oncogene, GTPase
 The headers of contaminants for immunopeptidomic from Karl is not changed. While the headers of GPMDB_cRAp, MaxQuant, and combined contaminant proteins were format as: 
-\>Cont|header_from_contaminant_database
+>Cont|header_from_contaminant_database
 P01966 from MaxQuant contaminants and P00761 from GPMDB_cRAp are shown here as examples:
-\>Cont|P01966 SWISS-PROT:P01966 (Bos taurus) Hemoglobin subunit alpha
-\>Cont|sp|P00761|TRYP_PIG Trypsin OS=Sus scrofa OX=9823 PE=1 SV=1
+>Cont|P01966 SWISS-PROT:P01966 (Bos taurus) Hemoglobin subunit alpha
+>Cont|sp|P00761|TRYP_PIG Trypsin OS=Sus scrofa OX=9823 PE=1 SV=1
 ```
 
 #### Proteins from IG/TR/NMD/LOF transcripts
 
-In GENCODE V42 Basic (CHR) annotation, there are 705 proteins from transcripts labeled as IG_C/D/J/V/_gene (IG), TR_C/J/V/_gene, nonsense_mediated_decay (NMD), and protein_coding_LoF (LOF). There are 674 proteins retained after removing redundant sequences and sequences the same regular proteins. The filtered proteins can be appended to the regular protein database as needed.
+In GENCODE V42 Basic (CHR) annotation, there are 705 proteins from transcripts labeled as IG\_C/D/J/V/\_gene (IG), TR_C/J/V/\_gene, nonsense_mediated_decay (NMD), and protein_coding_LoF (LOF). There are 674 proteins retained after removing redundant sequences and sequences the same regular proteins. The filtered proteins can be appended to the regular protein database as needed.
 
