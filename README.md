@@ -4,7 +4,7 @@
 ### Download reference from GENCODE using download_reference.sh
 
 Reference files were download from GENCODE and the human release 42 basic and CHR only annotation was selected. Links of reference files used in reference preparation are listed below.
-GENCODE V42
+GENCODE V42 
 https://www.gencodegenes.org/human/release_42.html
 
 Genome sequence: GRCh38 primary assembly
