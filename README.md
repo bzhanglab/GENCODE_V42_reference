@@ -1,6 +1,9 @@
 # GENCODE_V42_reference
  Reference preparation for proteogenomics data processing and downstream analysis
 
+
+
+
 ## Download references
 
 ```sh
@@ -73,4 +76,9 @@ P01966 from MaxQuant contaminants and P00761 from GPMDB_cRAp are shown here as e
 #### Proteins from IG/TR/NMD/LOF transcripts
 
 In GENCODE V42 Basic (CHR) annotation, there are 705 proteins from transcripts labeled as IG\_C/D/J/V/\_gene (IG), TR_C/J/V/\_gene, nonsense_mediated_decay (NMD), and protein_coding_LoF (LOF). There are 674 proteins retained after removing redundant sequences and sequences the same regular proteins. The filtered proteins can be appended to the regular protein database as needed.
+
+
+### More details can be found in this [fiel](https://github.com/bzhanglab/GENCODE_V42_reference/blob/main/doc/GENCODE_V42_readme.pdf)
+
+
 
