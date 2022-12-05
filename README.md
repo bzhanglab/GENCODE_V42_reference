@@ -9,7 +9,7 @@ Usage: bash download_reference.sh
 
 ```
 
-Reference files were download from GENCODE and the human release 42 basic and CHR only annotation was selected. ALL required files were downloaded automatically, except HGNC gene description. It should be manually download from https://www.genenames.org/download/custom/, approved symbols only. Then move the file to the annotation folder and rename it as HGNC-approved-name.txt.
+Reference files were download from GENCODE and the human release 42 basic and CHR only annotation was selected. ALL required files were downloaded automatically, **except HGNC gene description**. It should be manually download from https://www.genenames.org/download/custom/, approved symbols only. Then move the file to the annotation folder and rename it as HGNC-approved-name.txt.
 
 ## Select isoforms and generate comprehensive mapping table
 
@@ -33,7 +33,7 @@ Usage: perl prepare_gistic2_reference.pl
 
 ```
 
-A rg table of transcripts, except transcripts from chrM, were extracted from GENCODE V42 Basic (CHR) annotation (Figure 2). Hg38 cytoBand were downloaded from UCSC. Then rg and cytoBand tables were reformat following Gistic2 reference format. A Matlab script file main_convert.m will be copied to the folder gistic_reference. You should manually run this script to generate the final Gistics reference: GENCODE.V42.basic.CHR.no.chrM.mat
+A rg table of transcripts, except transcripts from chrM, were extracted from GENCODE V42 Basic (CHR) annotation (Figure 2). Hg38 cytoBand were downloaded from UCSC. Then rg and cytoBand tables were reformat following Gistic2 reference format. A Matlab script file main_convert.m will be copied to the folder gistic_reference. **You should manually run this script to generate the final Gistics reference: GENCODE.V42.basic.CHR.no.chrM.mat**
 
  [<img src="https://github.com/bzhanglab/GENCODE_V42_reference/blob/main/doc/rg.png" width=800 class="center">](https://github.com/bzhanglab/GENCODE_V42_reference)
 
@@ -56,11 +56,11 @@ Matched protein database, gencode.v42.pc_translations.fa, was download from GENC
 We evaluated three protein contaminant databases which are GPMDB_cRAp (118), MaxQuant (246), and contaminants for immunopeptidomic from Karl (642), respectively. 
 The MaxQuant contaminant database has 246 unique IDs and 245 unique sequences. Q8N1N4-2 was removed as it has the same sequence with Q7RTT2. Then we removed 42 contaminant proteins which with the same sequences with regular proteins. There are 203 proteins remained in MaxQuant database after filtering. The GPMDB_cRAp contaminant database has 118 unique IDs and 116 unique protein sequences. P0DUB6|AMY1A_HUMAN, P0DTE8|AMY1C_HUMAN, and P0DTE7|AMY1B_HUMAN have the same protein sequence and only P0DUB6|AMY1A_HUMAN was kept. Then we removed 67 contaminant proteins which with the same sequences with regular proteins. The filtered GPMDB_cRAp database has 49 protein sequences remained. No proteins were filter out from Karl’s database based on above method. While the overlap is still low between the three contaminant databases (Figure 4). Then we generated a combined contaminant database with union protein sequences (817) from the three filtered contaminant databases.
 
-  [<img src="https://github.com/bzhanglab/GENCODE_V42_reference/blob/main/doc/Evaluation_of_contaminants.png" width=800 class="center">](https://github.com/bzhanglab/GENCODE_V42_reference)
+  [<img src="https://github.com/bzhanglab/GENCODE_V42_reference/blob/main/doc/Evaluation_of_contaminants.png" width=500 class="center">](https://github.com/bzhanglab/GENCODE_V42_reference)
 
 
 The headers of regular proteins were format as: 
-\\>protein_ID|transcript_ID|gene_ID|gene_symbol gene_description.
+">"protein_ID|transcript_ID|gene_ID|gene_symbol gene_description.
 ENSP00000510254 of KRAS is shown here as an example:
 \\>ENSP00000510254|ENST00000692768|ENSG00000133703|KRAS KRAS proto-oncogene, GTPase
 The headers of contaminants for immunopeptidomic from Karl is not changed. While the headers of GPMDB_cRAp, MaxQuant, and combined contaminant proteins were format as: 
