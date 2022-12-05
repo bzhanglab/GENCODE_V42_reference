@@ -1,7 +1,15 @@
 # GENCODE_V42_reference
- Reference preparation for proteogenomics data processing and downstream analysis
 
+These scripts were developed to prepare GENCODE V42-based reference for proteogenomics data processing and downstream analysis for the [CPTAC](https://proteomics.cancer.gov/programs/cptac) community. 
 
+## Usage
+
+Scripts does not need setup or installation. While it required Rscript in your PATH. It has been test on Linux and MacOS with R version 4.0.3.
+
+Download scripts:
+```sh
+git clone https://github.com/bzhanglab/GENCODE_V42_reference.git
+```
 
 
 ## Download references
