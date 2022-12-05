@@ -1,7 +1,7 @@
 # GENCODE_V42_reference
  Reference preparation for proteogenomics data processing and downstream analysis
 
-### Download reference from GENCODE 
+### Download reference from GENCODE using download_reference.sh
 
 Reference files were download from GENCODE and the human release 42 basic and CHR only annotation was selected. Links of reference files used in reference preparation are listed below.
 GENCODE V42
@@ -12,8 +12,8 @@ https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/GRCh38.prim
 
 Gene annotation: GENCODE V42, basic, CHR only
 https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/gencode.v42.basic.annotation.gtf.gz
-1.  It contains the basic gene annotation on the reference chromosomes only
-2.  This is a subset of the corresponding comprehensive annotation, including only those transcripts tagged as 'basic' in every gene
+   1.  It contains the basic gene annotation on the reference chromosomes only
+   2.  This is a subset of the corresponding comprehensive annotation, including only those transcripts tagged as 'basic' in every gene
 
 Entrez gene ids mapping
 https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/gencode.v42.metadata.EntrezGene.gz
@@ -34,7 +34,7 @@ Protein sequence
 https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/gencode.v42.pc_translations.fa.gz
 
 HGNC gene description
-Download on 11/15/2022 from https://www.genenames.org/download/custom/, approved symbols only.
+It should be manually download from https://www.genenames.org/download/custom/, approved symbols only. Then move the file to annotation and rename it as HGNC-approved-name.txt.
 
 
 
