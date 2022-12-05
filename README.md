@@ -1,8 +1,40 @@
 # GENCODE_V42_reference
  Reference preparation for proteogenomics data processing and downstream analysis
 
+### Download reference from GENCODE 
 
+Reference files were download from GENCODE and the human release 42 basic and CHR only annotation was selected. Links of reference files used in reference preparation are listed below.
+GENCODE V42
+https://www.gencodegenes.org/human/release_42.html
 
+Genome sequence: GRCh38 primary assembly
+https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/GRCh38.primary_assembly.genome.fa.gz
+
+Gene annotation: GENCODE V42, basic, CHR only
+https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/gencode.v42.basic.annotation.gtf.gz
+1.  It contains the basic gene annotation on the reference chromosomes only
+2.  This is a subset of the corresponding comprehensive annotation, including only those transcripts tagged as 'basic' in every gene
+
+Entrez gene ids mapping
+https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/gencode.v42.metadata.EntrezGene.gz
+
+Entrez gene ids mapping
+https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/gencode.v42.metadata.EntrezGene.gz
+
+Gene symbol mapping
+https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/gencode.v42.metadata.HGNC.gz
+
+RefSeq mapping
+https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/gencode.v42.metadata.RefSeq.gz
+
+SwissProt mapping
+https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/gencode.v42.metadata.SwissProt.gz
+
+Protein sequence
+https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/gencode.v42.pc_translations.fa.gz
+
+HGNC gene description
+Download on 11/15/2022 from https://www.genenames.org/download/custom/, approved symbols only.
 
 
 
