@@ -14,7 +14,7 @@ git clone https://github.com/bzhanglab/GENCODE_V42_reference.git
 ```
 
 
-## Download references
+### Download references
 
 ```sh
 
@@ -24,7 +24,7 @@ Usage: bash download_reference.sh
 
 Reference files were download from GENCODE and the human release 42 basic and CHR only annotation was selected. ALL required files were downloaded automatically, **except HGNC gene description**. It should be manually download from https://www.genenames.org/download/custom/, approved symbols only. Then move the file to the annotation folder and rename it as HGNC-approved-name.txt.
 
-## Select isoforms and generate comprehensive mapping table
+###  Select isoforms and generate comprehensive mapping table
 
 ```sh
 
@@ -38,7 +38,7 @@ Swiss-Prot and MANE Select are two major efforts that aim to select one high-qua
 
 
 
-## Prepare matched Gistic2 reference
+###  Prepare matched Gistic2 reference
 
 ```sh
 
@@ -51,7 +51,7 @@ A rg table of transcripts, except transcripts from chrM, were extracted from GEN
  [<img src="https://github.com/bzhanglab/GENCODE_V42_reference/blob/main/doc/rg.png" width=800 class="center">](https://github.com/bzhanglab/GENCODE_V42_reference)
 
 
-## Prepare matched protein database
+###  Prepare matched protein database
 ```sh
 
 Usage: perl prepare_protein_database.pl
