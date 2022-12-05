@@ -24,3 +24,15 @@ Swiss-Prot and MANE Select are two major efforts that aim to select one high-qua
  [<img src="https://github.com/bzhanglab/GENCODE_V42_reference/blob/main/doc/isoform-selection.png" width=800 class="center">](https://github.com/bzhanglab/GENCODE_V42_reference)
 
 
+
+## Prepare matched Gistic2 reference
+
+```sh
+
+Usage: perl prepare_gistic2_reference.pl
+
+```
+
+A rg table of transcripts, except transcripts from chrM, were extracted from GENCODE V42 Basic (CHR) annotation (Figure 2). Hg38 cytoBand were downloaded from UCSC. Then rg and cytoBand tables were reformat following Gistic2 reference format. A Matlab script file main_convert.m will be copied to the folder gistic_reference. You should manually run this script to generate the final Gistics reference: GENCODE.V42.basic.CHR.no.chrM.mat
+
+ [<img src="https://github.com/bzhanglab/GENCODE_V42_reference/blob/main/doc/rg.png" width=800 class="center">](https://github.com/bzhanglab/GENCODE_V42_reference)
