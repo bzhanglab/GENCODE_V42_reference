@@ -1,0 +1,2 @@
+assembly	source	path	url	script	make_version	maker	date
+GRCh38.primary_assembly	GENCODE	NA	https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/GRCh38.primary_assembly.genome.fa.gz	NA	NA	YD	11-08-2022
