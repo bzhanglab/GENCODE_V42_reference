@@ -1,6 +1,8 @@
 # GENCODE_V42_reference
 
-These scripts were developed to prepare matched genomics references, indexes, and protein database for proteogenomics data processing and downstream analysis. Although it was initiated by the [CPTAC](https://proteomics.cancer.gov/programs/cptac) group, the idea of matched references, indexes, and protein databased may benefit the proteogenomics community. More details can be found [were](https://github.com/bzhanglab/GENCODE_V42_reference/blob/main/doc/GENCODE_V42_readme.pdf)
+These scripts were developed to prepare matched genomic references, indexes, and protein database for proteogenomics data processing and downstream analysis. Although it was initiated by the [CPTAC](https://proteomics.cancer.gov/programs/cptac) group, the idea of matched references, indexes, and protein databased across multi-omics may benefit the proteogenomics community. 
+
+More details can be found [were](https://github.com/bzhanglab/GENCODE_V42_reference/blob/main/doc/GENCODE_V42_readme.pdf)
 
 ## Usage
 
