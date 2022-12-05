@@ -60,7 +60,7 @@ The MaxQuant contaminant database has 246 unique IDs and 245 unique sequences. Q
 
 
 The headers of regular proteins were format as: 
-">"protein_ID|transcript_ID|gene_ID|gene_symbol gene_description.
+\>protein_ID|transcript_ID|gene_ID|gene_symbol gene_description.
 ENSP00000510254 of KRAS is shown here as an example:
 \\>ENSP00000510254|ENST00000692768|ENSG00000133703|KRAS KRAS proto-oncogene, GTPase
 The headers of contaminants for immunopeptidomic from Karl is not changed. While the headers of GPMDB_cRAp, MaxQuant, and combined contaminant proteins were format as: 
