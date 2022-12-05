@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir genome
 wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/GRCh38.primary_assembly.genome.fa.gz
 mv GRCh38.primary_assembly.genome.fa.gz genome/
@@ -20,3 +22,6 @@ wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/gencod
 wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_42/gencode.v42.metadata.SwissProt.gz
 mv gencode.v42.metadata.* Metadata_files/
 gunzip Metadata_files/*
+
+mkdir gistic_reference
+
